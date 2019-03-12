@@ -1,0 +1,84 @@
+
+---------------------------------------------------Welcome-to-the-Hexie-README-------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Compile: Give the "make Hexie" command while in the directory ~/hexOfficial/
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Some info about the board game hex: 
+
+Hex is a strategy board game for two players, black and white, played on a hexagonal grid, usually the size of 11x11. White plays first. 
+Players alternate placing markers on unoccupied spaces in an attempt to link their opposite sides of the board in an unbroken chain. 
+The first played to do so, wins. There are no draws in hex. 
+More about hex can be found here: https://en.wikipedia.org/wiki/Hex_(board_game)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+AVAILABLE COMMANDS:
+
+
+You can give the following commands in the command line:
+
+-n <size> : Sets the size of the grid. If no option is given, the default size is 11. Acceptable size values vary in the range [4,26].
+
+-d <difficulty> : Sets the difficulty of the game. The default difficulty is 1.
+
+-b : Sets human as the black player. Human's default color is white.
+
+-s : Enables the swap rule. (https://en.wikipedia.org/wiki/Hex_(board_game)#Rules) The swap rule is disabled by default.
+
+
+
+
+You can give the following commands while the game is running:
+
+• newgame [white|black [swapoff|swapon [<size>]]]
+
+Starts a new game based on the parameters given. The 1st parameter sets the player's color, the 2nd whether the swap rule is on/off and the 3rd the size of the game. 
+Note that there should always be either all or none of the parameters. 
+
+• play <move>
+
+User performs said <move>. 
+Note that acceptable moves are of the format "CN" where C is a Capital letter and N a number. F.i. D4 is an acceptable move, whereas d4 isn't. 
+
+• cont
+
+AI makes a move.
+
+• level [<difficulty>]
+
+Sets the difficulty level to <difficulty>.
+
+• swap
+If the swap rule is on, performs the swap move for the user.
+
+• save <statefile>
+Saves the current state of the game in the file <statefile>.
+
+• load <statefile>
+Loads the state of the game saved in the file <statefile>.
+
+• showstate
+Prints the current game state.
+
+• quit
+Exits the program.
+
+
+Important note: As of the current version of Hexie, every command related to the game's difficulty will not have any effect to the game. 
+That's because it was designed to participate in a competition, thus there was no need for difficulties other than the maximum. 
+This issue will be fixed in later updates. :]
+
+Not so important note: UNDO and SUGGEST commands will be added in later versions of Hexie.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Some facts about Hexie:
+-It is based on a project assigned by prof. Stamatopoulos, dept. of Informatics and Telecommunications, NKUA.
+-It won the department's local competition, facing some pretty tough opposition.
+-It is the brainchild of Charalampos Maraziaris (@cMrzrs) and Konstantinos Tsikouris (@superlink2013).
+
+

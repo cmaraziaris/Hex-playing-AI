@@ -1,0 +1,3 @@
+int won(char color,char** table,int size,int num, int let,int danger, int special);   /* 'special' is 1 when we want to print the winning path    */
+int winner(char** table,int size,char color,int special);               /* and 0 when we just want to check if someone has won the game */
+void print_winner(int win, int player);                           /* 'danger' is used to avoid infinite recursions when we proceed to check                 */

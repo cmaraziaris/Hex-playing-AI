@@ -1,0 +1,1 @@
+void gameboard(int size, char** table);

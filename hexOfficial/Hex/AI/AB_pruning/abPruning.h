@@ -1,0 +1,1 @@
+int ab_pruning(char** gameboard,char player, int size, int depth, int ismax,int alpha, int beta, int **moves);

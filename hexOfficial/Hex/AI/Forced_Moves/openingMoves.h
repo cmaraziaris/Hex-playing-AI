@@ -1,0 +1,1 @@
+int openingMoves(char **table, int size, char player);

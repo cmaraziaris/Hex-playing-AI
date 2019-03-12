@@ -1,0 +1,1 @@
+void level(int *difficulty);

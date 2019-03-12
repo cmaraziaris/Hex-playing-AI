@@ -1,0 +1,1 @@
+void commandLine(char **argv,int argc, int *size, int *diff, int *swap, char *user, char *pc);
