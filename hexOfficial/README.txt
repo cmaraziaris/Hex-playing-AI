@@ -1,20 +1,21 @@
+Hexie README.txt
 
----------------------------------------------------Welcome-to-the-Hexie-README-------------------------------------------------------
-
--------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------
 
 Compile: Give the "make Hexie" command while in the directory ~/hexOfficial/
 
--------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------
 
 Some info about the board game hex: 
 
-Hex is a strategy board game for two players, black and white, played on a hexagonal grid, usually the size of 11x11. White plays first. 
-Players alternate placing markers on unoccupied spaces in an attempt to link their opposite sides of the board in an unbroken chain. 
+Hex is a strategy board game for two players, black and white, played on a hexagonal grid, usually the size of 11x11. 
+White plays first. 
+Players alternate placing markers on unoccupied spaces in an attempt to link their opposite sides of the board in an 
+unbroken chain. 
 The first played to do so, wins. There are no draws in hex. 
 More about hex can be found here: https://en.wikipedia.org/wiki/Hex_(board_game)
 
--------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------
 
 AVAILABLE COMMANDS:
 
@@ -36,7 +37,8 @@ You can give the following commands while the game is running:
 
 • newgame [white|black [swapoff|swapon [<size>]]]
 
-Starts a new game based on the parameters given. The 1st parameter sets the player's color, the 2nd whether the swap rule is on/off and the 3rd the size of the game. 
+Starts a new game based on the parameters given. The 1st parameter sets the player's color, the 2nd whether the swap rule 
+is on/off and the 3rd the size of the game. 
 Note that there should always be either all or none of the parameters. 
 
 • play <move>
@@ -68,13 +70,14 @@ Prints the current game state.
 Exits the program.
 
 
-Important note: As of the current version of Hexie, every command related to the game's difficulty will not have any effect to the game. 
+Important note: As of the current version of Hexie, every command related to the game's difficulty will not haveany effect 
+to the game. 
 That's because it was designed to participate in a competition, thus there was no need for difficulties other than the maximum. 
 This issue will be fixed in later updates. :]
 
 Not so important note: UNDO and SUGGEST commands will be added in later versions of Hexie.
 
--------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------
 
 Some facts about Hexie:
 -It is based on a project assigned by prof. Stamatopoulos, dept. of Informatics and Telecommunications, NKUA.
