@@ -2,6 +2,7 @@
 
 A simple, yet powerful, Hex simulator.
 
+
 ### Installing
 
 Download source code by typing:
@@ -9,9 +10,12 @@ Download source code by typing:
 ```
 git clone https://github.com/cMrzrs/Hex-playing-AI.git
 ```
+
+
 ### Compilation
 
 Give the ``` make Hexie ``` command while in the directory ~/hexOfficial/
+
 
 ## Running 
 
@@ -22,6 +26,7 @@ Simply type:
 ```
 Be sure to read the guide below on how to play the game through the command line. =)
 
+
 ### Clean
 
 While being in project directory, delete all objects files and executable by typing:   
@@ -29,6 +34,7 @@ While being in project directory, delete all objects files and executable by typ
 ```
 make clean
 ```
+
 
 ### Some info about the board game: Hex
 
@@ -38,6 +44,7 @@ Players alternate placing markers on unoccupied spaces in an attempt to link the
 unbroken chain. 
 The first played to do so, wins. There are no draws in Hex. 
 More about Hex can be found here: https://en.wikipedia.org/wiki/Hex_(board_game)
+
 
 ## HOW TO PLAY & AVAILABLE COMMANDS
 
@@ -53,6 +60,7 @@ You can give the following commands in the command line:
 -s : Enables the swap rule. (https://en.wikipedia.org/wiki/Hex_(board_game)#Rules) The swap rule is disabled by default.
 
 A command to begin a game of Hex could be: ./Hex -n 7 -d 5 -b -s
+
 
 ### During gameplay
 You can give the following commands while the game is running:
@@ -72,23 +80,28 @@ Note that acceptable moves are of the format "CN" where C is a Capital letter an
 
 AI makes a move.
 
-• level [<difficulty>]
+• level <difficulty>
 
 Sets the difficulty level to <difficulty>.
 
 • swap
+
 If the swap rule is on, performs the swap move for the user.
 
 • save <statefile>
+  
 Saves the current state of the game in the file <statefile>.
 
 • load <statefile>
+  
 Loads the state of the game saved in the file <statefile>.
 
 • showstate
+
 Prints the current game state.
 
 • quit
+
 Exits the program.
 
 
@@ -98,9 +111,11 @@ This issue will be fixed in later updates. :]
 
 Unimportant note: UNDO and SUGGEST commands will be added in later versions.
 
+
 ## About
 - Based on a project assigned by prof. Stamatopoulos, dept. of Informatics and Telecommunications, NKUA.
 - Won the department's local competition.
+
 
 ## Made by
 [Charalampos Maraziaris](https://github.com/cMrzrs)
