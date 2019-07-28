@@ -2,15 +2,18 @@
 CC = gcc
 FLAGS = -c
 
-objects1 = main.o Cont.o createInitFree.o generalFunctions.o Level.o NewGame.o Play.o SaveLoadQuit.o 
-objects2 = Swap.o letserrorhandle.o commandLine.o dynDiff.o letsprint.o letsswap.o letswin.o 
-objects3 = lists.o bestMove.o forceMoves.o openingMoves.o abPruning.o letseval.o dijkstra.o
-objects4 = list_operations.o bridges.o
+objects = main.o Cont.o createInitFree.o generalFunctions.o \
+ Level.o NewGame.o Play.o SaveLoadQuit.o \
+ Swap.o letserrorhandle.o commandLine.o \
+ dynDiff.o letsprint.o letsswap.o letswin.o \
+ lists.o bestMove.o forceMoves.o openingMoves.o \ 
+ abPruning.o letseval.o dijkstra.o \
+ list_operations.o bridges.o
 
 basic_headers = ./Hex/Basic_Headers/globals.h ./Hex/Basic_Headers/types.h 
 
-Hexie : $(objects1) $(objects2) $(objects3) $(objects4)
-	$(CC) $(objects1) $(objects2) $(objects3) $(objects4) -o Hexie
+Hexie : $(objects)
+	$(CC) $(objects) -o Hex
 	rm -f *.o
 
 main.o : ./Hex/main_Related/main.c ./Hex/main_Related/main_Header.h $(basic_headers)
