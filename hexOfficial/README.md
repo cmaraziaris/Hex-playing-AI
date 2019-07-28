@@ -22,7 +22,7 @@ Give the ``` make Hexie ``` command while in the directory ~/hexOfficial/
 Simply type:
 
 ```
-./Hex
+./hex
 ```
 Be sure to read the guide below on how to play the game through the command line. =)
 
@@ -59,7 +59,7 @@ You can give the following commands in the command line:
 
 -s : Enables the swap rule. (https://en.wikipedia.org/wiki/Hex_(board_game)#Rules) The swap rule is disabled by default.
 
-A command to begin a game of Hex could be: ./Hex -n 7 -d 5 -b -s
+An example command to begin a game of Hex is: ./hex -n 7 -d 5 -b -s
 
 
 ### During gameplay
