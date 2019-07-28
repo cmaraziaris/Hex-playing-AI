@@ -1,25 +1,47 @@
-Hexie README.txt
+# Hex-playing AI
 
------------------------------------------------------
+A simple, yet powerful, Hex simulator.
 
-Compile: Give the "make Hexie" command while in the directory ~/hexOfficial/
+### Installing
 
------------------------------------------------------
+Download source code by typing:
 
-Some info about the board game hex: 
+```
+git clone https://github.com/cMrzrs/Hex-playing-AI.git
+```
+### Compilation
+
+Give the ``` make Hexie ``` command while in the directory ~/hexOfficial/
+
+## Running 
+
+Simply type:
+
+```
+./Hex
+```
+Be sure to read the guide below on how to play the game through the command line. =)
+
+### Clean
+
+While being in project directory, delete all objects files and executable by typing:   
+
+```
+make clean
+```
+
+### Some info about the board game: Hex
 
 Hex is a strategy board game for two players, black and white, played on a hexagonal grid, usually the size of 11x11. 
 White plays first. 
 Players alternate placing markers on unoccupied spaces in an attempt to link their opposite sides of the board in an 
 unbroken chain. 
-The first played to do so, wins. There are no draws in hex. 
-More about hex can be found here: https://en.wikipedia.org/wiki/Hex_(board_game)
+The first played to do so, wins. There are no draws in Hex. 
+More about Hex can be found here: https://en.wikipedia.org/wiki/Hex_(board_game)
 
------------------------------------------------------
+## HOW TO PLAY & AVAILABLE COMMANDS
 
-AVAILABLE COMMANDS:
-
-
+### Command line
 You can give the following commands in the command line:
 
 -n <size> : Sets the size of the grid. If no option is given, the default size is 11. Acceptable size values vary in the range [4,26].
@@ -30,9 +52,9 @@ You can give the following commands in the command line:
 
 -s : Enables the swap rule. (https://en.wikipedia.org/wiki/Hex_(board_game)#Rules) The swap rule is disabled by default.
 
+A command to begin a game of Hex could be: ./Hex -n 7 -d 5 -b -s
 
-
-
+### During gameplay
 You can give the following commands while the game is running:
 
 • newgame [white|black [swapoff|swapon [<size>]]]
@@ -70,18 +92,17 @@ Prints the current game state.
 Exits the program.
 
 
-Important note: As of the current version of Hexie, every command related to the game's difficulty will not haveany effect 
-to the game. 
+Important note: As of the current release, every command related to the game's difficulty will not have any actual effect to the game. 
 That's because it was designed to participate in a competition, thus there was no need for difficulties other than the maximum. 
 This issue will be fixed in later updates. :]
 
-Not so important note: UNDO and SUGGEST commands will be added in later versions of Hexie.
+Unimportant note: UNDO and SUGGEST commands will be added in later versions.
 
-----------------------------------------------------
+## About
+- Based on a project assigned by prof. Stamatopoulos, dept. of Informatics and Telecommunications, NKUA.
+- Won the department's local competition.
 
-Some facts about Hexie:
--It is based on a project assigned by prof. Stamatopoulos, dept. of Informatics and Telecommunications, NKUA.
--It won the department's local competition, facing some pretty tough opposition.
--It is the brainchild of Charalampos Maraziaris (@cMrzrs) and Konstantinos Tsikouris (@superlink2013).
-
-
+## Made by
+[Charalampos Maraziaris](https://github.com/cMrzrs)
+and
+[Konstantinos Tsikouris](https://github.com/superlink2013)
