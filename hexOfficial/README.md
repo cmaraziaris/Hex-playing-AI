@@ -65,7 +65,7 @@ An example command to begin a game of Hex is: ./hex -n 7 -d 5 -b -s
 ### During gameplay
 You can give the following commands while the game is running:
 
-• newgame [white|black [swapoff|swapon [<size>]]]
+• newgame [white|black [swapoff|swapon <size>]]
 
 Starts a new game based on the parameters given. The 1st parameter sets the player's color, the 2nd whether the swap rule 
 is on/off and the 3rd the size of the game. 
