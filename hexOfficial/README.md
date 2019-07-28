@@ -57,7 +57,7 @@ You can give the following commands in the command line:
 
 -b : Sets human as the black player. Human's default color is white.
 
--s : Enables the swap rule. (https://en.wikipedia.org/wiki/Hex_(board_game)#Rules) The swap rule is disabled by default.
+-s : Enables the swap rule. The swap rule is disabled by default. [RULES](https://en.wikipedia.org/wiki/Hex_(board_game)#Rules). 
 
 An example command to begin a game of Hex is: ./hex -n 7 -d 5 -b -s
 
