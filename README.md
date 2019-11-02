@@ -14,7 +14,7 @@ git clone https://github.com/cMrzrs/Hex-playing-AI.git
 
 ### Compilation
 
-Give the ``` make Hexie ``` command while in the directory ~/hexOfficial/
+Give the ``` make ``` command while in the directory ~/Hex-playing-AI/
 
 
 ## Running 
