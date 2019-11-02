@@ -14,22 +14,24 @@ git clone https://github.com/cMrzrs/Hex-playing-AI.git
 
 ### Compilation
 
-Give the ``` make ``` command while in the directory ~/Hex-playing-AI/
+Give the ``` make ``` command while in the directory *~/Hex-playing-AI/*
 
 
 ## Running 
 
-Simply type:
+Type:
 
 ```
-./hex
+cd build
+
+./hex_game
 ```
 Be sure to read the guide below on how to play the game through the command line. =)
 
 
 ### Clean
 
-While being in project directory, delete all objects files and executable by typing:   
+While being in *~/Hex-playing-AI/* directory, delete all objects files and executable by typing:   
 
 ```
 make clean
@@ -42,11 +44,12 @@ Hex is a strategy board game for two players, black and white, played on a hexag
 White plays first. 
 Players alternate placing markers on unoccupied spaces in an attempt to link their opposite sides of the board in an 
 unbroken chain. 
-The first played to do so, wins. There are no draws in Hex. 
+The first played to do so, wins. There are no draws in Hex.
+
 More about Hex can be found here: https://en.wikipedia.org/wiki/Hex_(board_game)
 
 
-## HOW TO PLAY & AVAILABLE COMMANDS
+## How to play & available commands
 
 ### Command line
 You can give the following commands in the command line:
@@ -113,11 +116,10 @@ Unimportant note: UNDO and SUGGEST commands will be added in later versions.
 
 
 ## About
-- Based on a project assigned by prof. Stamatopoulos, dept. of Informatics and Telecommunications, NKUA.
+- Based on a project assigned by [prof. Stamatopoulos](http://cgi.di.uoa.gr/~takis/Welcome.html), dept. of Informatics and Telecommunications, NKUA.
 - Won the department's local competition.
 
 
-## Made by
-[Charalampos Maraziaris](https://github.com/cMrzrs)
-and
-[Konstantinos Tsikouris](https://github.com/superlink2013)
+## Authors
+- [Charalampos Maraziaris](https://github.com/cMrzrs)
+- [Konstantinos Tsikouris](https://github.com/superlink2013)

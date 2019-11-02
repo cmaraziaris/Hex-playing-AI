@@ -1,4 +1,4 @@
-TARGET_EXEC ?= hex
+TARGET_EXEC ?= hex_game
 
 CC = gcc
 CC_FLAGS = -Wall
