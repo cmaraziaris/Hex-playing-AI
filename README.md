@@ -116,7 +116,7 @@ Unimportant note: UNDO and SUGGEST commands will be added in later versions.
 
 
 ## About
-- Based on a project assigned by [prof. Stamatopoulos](http://cgi.di.uoa.gr/~takis/Welcome.html), dept. of Informatics and Telecommunications, NKUA.
+- Based on a project assigned by professor [P.Stamatopoulos](http://cgi.di.uoa.gr/~takis/Welcome.html), dept. of Informatics and Telecommunications, NKUA.
 - Won the department's local competition.
 
 
