@@ -51,84 +51,100 @@ void dynamicDifficulty(int *difficulty, int size){
 /*****************************************************/
 
 
-  if (size == 4)
+  if (size == 4){
     if (movecount <= 3) *difficulty = 1;
     else *difficulty = 10;
+  }
 
 
-  if (size == 7)
+  if (size == 7){
     if (movecount <= 9) *difficulty = 1;
     else *difficulty = 5;
+  }
 
-  if (size == 8)
+  if (size == 8){
     if (movecount <= 9) *difficulty = 1;
     else *difficulty = 4;
+  }
     //
-  if (size == 9)
+  if (size == 9){
     if (movecount <= 9) *difficulty = 1;
     else if (movecount <= 30) *difficulty = 4;
     else *difficulty = 3;
+  }
 
-  if (size == 10)
+  if (size == 10){
     if (movecount <= 11) *difficulty = 1;
     else if (movecount <= 18) *difficulty = 4;
-    else *difficulty = 3;    
+    else *difficulty = 3; 
+  }
 
 
 
-
-
-  if (size == 13)
+  if (size == 13){
     if (movecount <= 16) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 14)
+  if (size == 14){
     if (movecount <= 16) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 15)
+  if (size == 15){
     if (movecount <= 19) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 16)
+  if (size == 16){
     if (movecount <= 19) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 17)
+  if (size == 17){
     if (movecount <= 22) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 18)
+  if (size == 18){
     if (movecount <= 22) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 19)
+  if (size == 19){
     if (movecount <= 25) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 20)
+  if (size == 20){
     if (movecount <= 30) *difficulty = 1;
     else *difficulty = 2;
+  }
 
-  if (size == 22)
+  if (size == 22){
     if (movecount <= 30) *difficulty = 1;
     else if (movecount <= 40) *difficulty = 2;
     else *difficulty = 1;
-  if (size == 23)
+  }
+  if (size == 23){
     if (movecount <= 30) *difficulty = 1;
     else *difficulty = 2;
-  if (size == 24)
+  }
+  if (size == 24){
     if (movecount <= 30) *difficulty = 1;
     else if (movecount <= 40) *difficulty = 2;
     else *difficulty = 1;
-  if (size == 25)
-    if (movecount <= 30) *difficulty = 1;
-    else if (movecount <= 40) *difficulty = 2;
-    else *difficulty = 1;   
-  if (size == 26)
+  }
+  if (size == 25){
     if (movecount <= 30) *difficulty = 1;
     else if (movecount <= 40) *difficulty = 2;
     else *difficulty = 1;
+  }
+  if (size == 26){
+    if (movecount <= 30) *difficulty = 1;
+    else if (movecount <= 40) *difficulty = 2;
+    else *difficulty = 1;
+  }
 
 
   return;
@@ -158,6 +174,7 @@ int decider(int size){      /*  Decides the max # of moves before          */
     case 23:  return 30; 
     case 24:  return 30;  
     case 25:  return 30;  
-    case 26:  return 30; 
+    case 26:  return 30;
+    default:  return 30;
   }
 }
