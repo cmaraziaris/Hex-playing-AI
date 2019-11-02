@@ -10,9 +10,8 @@ objects = main.o Cont.o createInitFree.o generalFunctions.o Level.o \
 
 basic_headers = ./Hex/Basic_Headers/globals.h ./Hex/Basic_Headers/types.h 
 
-Hexie : $(objects)
+hex : clean $(objects)
 	$(CC) $(objects) -o hex
-	rm -f *.o
 
 main.o : ./Hex/main_Related/main.c ./Hex/main_Related/main_Header.h $(basic_headers)
 	$(CC) $(FLAGS) ./Hex/main_Related/main.c
@@ -85,3 +84,7 @@ list_operations.o : ./Hex/AI/AB_pruning/Evaluation_Function/Dijkstra_Shortest_Pa
 
 bridges.o : ./Hex/AI/AB_pruning/Evaluation_Function/Bridges_Functions/bridges.c ./Hex/AI/AB_pruning/Evaluation_Function/Bridges_Functions/bridges.h $(basic_headers)
 	$(CC) $(FLAGS)	./Hex/AI/AB_pruning/Evaluation_Function/Bridges_Functions/bridges.c
+
+clean:
+	rm -f *.o
+	rm -f hex
