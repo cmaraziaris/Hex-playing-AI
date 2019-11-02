@@ -17,7 +17,7 @@ git clone https://github.com/cMrzrs/Hex-playing-AI.git
 Give the ``` make ``` command while in the directory *~/Hex-playing-AI/*
 
 
-## Running 
+### Running 
 
 Type:
 
