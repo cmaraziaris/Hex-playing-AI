@@ -1,7 +1,7 @@
 TARGET_EXEC ?= hex
 
 CC = gcc
-CFLAGS = -Wall
+CC_FLAGS = -Wall
 
 BUILD_DIR ?= ./build
 SRC_DIRS ?= ./Hex
