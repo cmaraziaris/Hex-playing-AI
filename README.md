@@ -3,7 +3,7 @@
 A simple, yet powerful, Hex simulator.
 
 
-### Installing
+### - Install
 
 Download source code by typing:
 
@@ -12,12 +12,12 @@ git clone https://github.com/cMrzrs/Hex-playing-AI.git
 ```
 
 
-### Compilation
+### - Compile
 
 Give the ``` make ``` command while in the directory *~/Hex-playing-AI/*
 
 
-### Running 
+### - Run 
 
 Type:
 
@@ -29,7 +29,7 @@ cd build
 Be sure to read the guide below on how to play the game through the command line. =)
 
 
-### Clean
+### - Clean
 
 While being in *~/Hex-playing-AI/* directory, delete all objects files and executable by typing:   
 
