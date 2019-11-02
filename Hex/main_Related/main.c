@@ -8,7 +8,7 @@
 
 int main(int argc, char** argv){
   int size, difficulty, swap, win, didSwap;
-  char user, pc, currentplayer, ch;
+  char user, pc, currentplayer;
   char command[25];
 
   initVariables(&win,&didSwap,&currentplayer,&size,&difficulty,&swap,&user,&pc);
