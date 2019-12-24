@@ -54,9 +54,9 @@ More about Hex can be found here: https://en.wikipedia.org/wiki/Hex_(board_game)
 ### Command line
 You can give the following commands in the command line:
 
--n <size> : Sets the size of the grid. If no option is given, the default size is 11. Acceptable size values vary in the range [4,26].
+-n \<size\> : Sets the size of the grid. If no option is given, the default size is 11. Acceptable size values vary in the range \[4,26\].
 
--d <difficulty> : Sets the difficulty of the game. The default difficulty is 1.
+-d \<difficulty\> : Sets the difficulty of the game. The default difficulty is 1.
 
 -b : Sets human as the black player. Human's default color is white.
 
