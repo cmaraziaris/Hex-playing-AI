@@ -74,9 +74,9 @@ Starts a new game based on the parameters given. The 1st parameter sets the play
 is on/off and the 3rd the size of the game. 
 Note that there should always be either all or none of the parameters. 
 
-• play <move>
+• play \<move\>
 
-User performs said <move>. 
+User performs said \<move\>. 
 Note that acceptable moves are of the format "CN" where C is a Capital letter and N a number. F.i. D4 is an acceptable move, whereas d4 isn't. 
 
 • cont
