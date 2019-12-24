@@ -83,21 +83,21 @@ Note that acceptable moves are of the format "CN" where C is a Capital letter an
 
 AI makes a move.
 
-• level <difficulty>
+• level \<difficulty\>
 
-Sets the difficulty level to <difficulty>.
+Sets the difficulty level to \<difficulty\>.
 
 • swap
 
 If the swap rule is on, performs the swap move for the user.
 
-• save <statefile>
+• save \<statefile\>
   
-Saves the current state of the game in the file <statefile>.
+Saves the current state of the game in the file \<statefile\>.
 
-• load <statefile>
+• load \<statefile\>
   
-Loads the state of the game saved in the file <statefile>.
+Loads the state of the game saved in the file \<statefile\>.
 
 • showstate
 
